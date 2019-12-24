@@ -4,6 +4,6 @@ extern "C" {
 }
 
 fn main() {
-    let sum = unsafe { example_number() };
-    println!("{}", sum);
+    let num = unsafe { example_number() };
+    println!("{}", num);
 }
